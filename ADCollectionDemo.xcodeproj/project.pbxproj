@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42758E007B863EAF83801ADC /* libPods-ADCollectionDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6515A3DBEF9DAFB0E192E5B /* libPods-ADCollectionDemoUITests.a */; };
+		6200B1511D9A3E200072772A /* 多肉1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6200B14C1D9A3E200072772A /* 多肉1.jpg */; };
+		6200B1521D9A3E200072772A /* 多肉2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6200B14D1D9A3E200072772A /* 多肉2.jpg */; };
+		6200B1531D9A3E200072772A /* 多肉3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6200B14E1D9A3E200072772A /* 多肉3.jpg */; };
+		6200B1541D9A3E200072772A /* 多肉4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6200B14F1D9A3E200072772A /* 多肉4.jpg */; };
+		6200B1551D9A3E200072772A /* 多肉5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6200B1501D9A3E200072772A /* 多肉5.jpg */; };
+		6201B8BB1D9CA8FF00013551 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8BA1D9CA8FF00013551 /* TestViewController.m */; };
+		6201B8BE1D9CAC4800013551 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8BD1D9CAC4800013551 /* FirstViewController.m */; };
+		6201B8D71D9CBF5800013551 /* MLeakedObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8C11D9CBF5800013551 /* MLeakedObjectProxy.m */; };
+		6201B8D81D9CBF5800013551 /* MLeaksMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8C41D9CBF5800013551 /* MLeaksMessenger.m */; };
+		6201B8D91D9CBF5800013551 /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8C61D9CBF5800013551 /* NSObject+MemoryLeak.m */; };
+		6201B8DA1D9CBF5800013551 /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8C81D9CBF5800013551 /* UIApplication+MemoryLeak.m */; };
+		6201B8DB1D9CBF5800013551 /* UINavigationController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8CA1D9CBF5800013551 /* UINavigationController+MemoryLeak.m */; };
+		6201B8DC1D9CBF5800013551 /* UIPageViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8CC1D9CBF5800013551 /* UIPageViewController+MemoryLeak.m */; };
+		6201B8DD1D9CBF5800013551 /* UISplitViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8CE1D9CBF5800013551 /* UISplitViewController+MemoryLeak.m */; };
+		6201B8DE1D9CBF5800013551 /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8D01D9CBF5800013551 /* UITabBarController+MemoryLeak.m */; };
+		6201B8DF1D9CBF5800013551 /* UITouch+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8D21D9CBF5800013551 /* UITouch+MemoryLeak.m */; };
+		6201B8E01D9CBF5800013551 /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8D41D9CBF5800013551 /* UIView+MemoryLeak.m */; };
+		6201B8E11D9CBF5800013551 /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8D61D9CBF5800013551 /* UIViewController+MemoryLeak.m */; };
 		625D7B3C1D99145500D30BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 625D7B3B1D99145500D30BBC /* main.m */; };
 		625D7B3F1D99145500D30BBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 625D7B3E1D99145500D30BBC /* AppDelegate.m */; };
 		625D7B421D99145500D30BBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625D7B411D99145500D30BBC /* ViewController.m */; };
@@ -15,6 +34,10 @@
 		625D7B4A1D99145500D30BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625D7B481D99145500D30BBC /* LaunchScreen.storyboard */; };
 		625D7B551D99145500D30BBC /* ADCollectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 625D7B541D99145500D30BBC /* ADCollectionDemoTests.m */; };
 		625D7B601D99145500D30BBC /* ADCollectionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 625D7B5F1D99145500D30BBC /* ADCollectionDemoUITests.m */; };
+		625D7B701D9914B700D30BBC /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 625D7B6F1D9914B700D30BBC /* ADView.m */; };
+		625D7BB81D995DFB00D30BBC /* ADCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 625D7BB71D995DFB00D30BBC /* ADCollectionCell.m */; };
+		6C1920F25B87FE8CB7DA5604 /* libPods-ADCollectionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 478BE6F87AECA92D94EE7366 /* libPods-ADCollectionDemo.a */; };
+		CEC1D58F98674F56CAE1ECC0 /* libPods-ADCollectionDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0EC29EE001B698CA240517 /* libPods-ADCollectionDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		308066027F3EBECC1A071ABC /* Pods-ADCollectionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCollectionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADCollectionDemo/Pods-ADCollectionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		478BE6F87AECA92D94EE7366 /* libPods-ADCollectionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADCollectionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0EC29EE001B698CA240517 /* libPods-ADCollectionDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADCollectionDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A64A1DCEDEC8AA4C37706B1 /* Pods-ADCollectionDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCollectionDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADCollectionDemoUITests/Pods-ADCollectionDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E54AF015441C8CF5DFD9E08 /* Pods-ADCollectionDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCollectionDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADCollectionDemoUITests/Pods-ADCollectionDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6200B14C1D9A3E200072772A /* 多肉1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "多肉1.jpg"; sourceTree = "<group>"; };
+		6200B14D1D9A3E200072772A /* 多肉2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "多肉2.jpg"; sourceTree = "<group>"; };
+		6200B14E1D9A3E200072772A /* 多肉3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "多肉3.jpg"; sourceTree = "<group>"; };
+		6200B14F1D9A3E200072772A /* 多肉4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "多肉4.jpg"; sourceTree = "<group>"; };
+		6200B1501D9A3E200072772A /* 多肉5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "多肉5.jpg"; sourceTree = "<group>"; };
+		6201B8B91D9CA8FF00013551 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		6201B8BA1D9CA8FF00013551 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		6201B8BC1D9CAC4800013551 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6201B8BD1D9CAC4800013551 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6201B8C01D9CBF5800013551 /* MLeakedObjectProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeakedObjectProxy.h; sourceTree = "<group>"; };
+		6201B8C11D9CBF5800013551 /* MLeakedObjectProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLeakedObjectProxy.m; sourceTree = "<group>"; };
+		6201B8C21D9CBF5800013551 /* MLeaksFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeaksFinder.h; sourceTree = "<group>"; };
+		6201B8C31D9CBF5800013551 /* MLeaksMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeaksMessenger.h; sourceTree = "<group>"; };
+		6201B8C41D9CBF5800013551 /* MLeaksMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLeaksMessenger.m; sourceTree = "<group>"; };
+		6201B8C51D9CBF5800013551 /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
+		6201B8C61D9CBF5800013551 /* NSObject+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MemoryLeak.m"; sourceTree = "<group>"; };
+		6201B8C71D9CBF5800013551 /* UIApplication+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+MemoryLeak.h"; sourceTree = "<group>"; };
+		6201B8C81D9CBF5800013551 /* UIApplication+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MemoryLeak.m"; sourceTree = "<group>"; };
+		6201B8C91D9CBF5800013551 /* UINavigationController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MemoryLeak.h"; sourceTree = "<group>"; };
+		6201B8CA1D9CBF5800013551 /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
+		6201B8CB1D9CBF5800013551 /* UIPageViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		6201B8CC1D9CBF5800013551 /* UIPageViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		6201B8CD1D9CBF5800013551 /* UISplitViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		6201B8CE1D9CBF5800013551 /* UISplitViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		6201B8CF1D9CBF5800013551 /* UITabBarController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+MemoryLeak.h"; sourceTree = "<group>"; };
+		6201B8D01D9CBF5800013551 /* UITabBarController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+MemoryLeak.m"; sourceTree = "<group>"; };
+		6201B8D11D9CBF5800013551 /* UITouch+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITouch+MemoryLeak.h"; sourceTree = "<group>"; };
+		6201B8D21D9CBF5800013551 /* UITouch+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITouch+MemoryLeak.m"; sourceTree = "<group>"; };
+		6201B8D31D9CBF5800013551 /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MemoryLeak.h"; sourceTree = "<group>"; };
+		6201B8D41D9CBF5800013551 /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MemoryLeak.m"; sourceTree = "<group>"; };
+		6201B8D51D9CBF5800013551 /* UIViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		6201B8D61D9CBF5800013551 /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
 		625D7B371D99145500D30BBC /* ADCollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADCollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		625D7B3B1D99145500D30BBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		625D7B3D1D99145500D30BBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +111,14 @@
 		625D7B5B1D99145500D30BBC /* ADCollectionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADCollectionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		625D7B5F1D99145500D30BBC /* ADCollectionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADCollectionDemoUITests.m; sourceTree = "<group>"; };
 		625D7B611D99145500D30BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		625D7B6E1D9914B700D30BBC /* ADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADView.h; sourceTree = "<group>"; };
+		625D7B6F1D9914B700D30BBC /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADView.m; sourceTree = "<group>"; };
+		625D7BB61D995DFB00D30BBC /* ADCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCollectionCell.h; sourceTree = "<group>"; };
+		625D7BB71D995DFB00D30BBC /* ADCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCollectionCell.m; sourceTree = "<group>"; };
+		9AC8512A3CBFA59ECA0089FF /* Pods-ADCollectionDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCollectionDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADCollectionDemoTests/Pods-ADCollectionDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8DA3750DA031A058C39801E /* Pods-ADCollectionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCollectionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADCollectionDemo/Pods-ADCollectionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D6515A3DBEF9DAFB0E192E5B /* libPods-ADCollectionDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADCollectionDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE425420F5CB3ACE886F7F1 /* Pods-ADCollectionDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCollectionDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADCollectionDemoTests/Pods-ADCollectionDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1920F25B87FE8CB7DA5604 /* libPods-ADCollectionDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC1D58F98674F56CAE1ECC0 /* libPods-ADCollectionDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +142,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42758E007B863EAF83801ADC /* libPods-ADCollectionDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B8675F65AABD509F76A6965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				478BE6F87AECA92D94EE7366 /* libPods-ADCollectionDemo.a */,
+				5A0EC29EE001B698CA240517 /* libPods-ADCollectionDemoTests.a */,
+				D6515A3DBEF9DAFB0E192E5B /* libPods-ADCollectionDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		250502FCB6D0BB493B4A949A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8DA3750DA031A058C39801E /* Pods-ADCollectionDemo.debug.xcconfig */,
+				308066027F3EBECC1A071ABC /* Pods-ADCollectionDemo.release.xcconfig */,
+				9AC8512A3CBFA59ECA0089FF /* Pods-ADCollectionDemoTests.debug.xcconfig */,
+				EDE425420F5CB3ACE886F7F1 /* Pods-ADCollectionDemoTests.release.xcconfig */,
+				5A64A1DCEDEC8AA4C37706B1 /* Pods-ADCollectionDemoUITests.debug.xcconfig */,
+				5E54AF015441C8CF5DFD9E08 /* Pods-ADCollectionDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6200B14B1D9A3E200072772A /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				6200B14C1D9A3E200072772A /* 多肉1.jpg */,
+				6200B14D1D9A3E200072772A /* 多肉2.jpg */,
+				6200B14E1D9A3E200072772A /* 多肉3.jpg */,
+				6200B14F1D9A3E200072772A /* 多肉4.jpg */,
+				6200B1501D9A3E200072772A /* 多肉5.jpg */,
+			);
+			path = pic;
+			sourceTree = "<group>";
+		};
+		6201B8BF1D9CBF5800013551 /* MLeaksFinder */ = {
+			isa = PBXGroup;
+			children = (
+				6201B8C01D9CBF5800013551 /* MLeakedObjectProxy.h */,
+				6201B8C11D9CBF5800013551 /* MLeakedObjectProxy.m */,
+				6201B8C21D9CBF5800013551 /* MLeaksFinder.h */,
+				6201B8C31D9CBF5800013551 /* MLeaksMessenger.h */,
+				6201B8C41D9CBF5800013551 /* MLeaksMessenger.m */,
+				6201B8C51D9CBF5800013551 /* NSObject+MemoryLeak.h */,
+				6201B8C61D9CBF5800013551 /* NSObject+MemoryLeak.m */,
+				6201B8C71D9CBF5800013551 /* UIApplication+MemoryLeak.h */,
+				6201B8C81D9CBF5800013551 /* UIApplication+MemoryLeak.m */,
+				6201B8C91D9CBF5800013551 /* UINavigationController+MemoryLeak.h */,
+				6201B8CA1D9CBF5800013551 /* UINavigationController+MemoryLeak.m */,
+				6201B8CB1D9CBF5800013551 /* UIPageViewController+MemoryLeak.h */,
+				6201B8CC1D9CBF5800013551 /* UIPageViewController+MemoryLeak.m */,
+				6201B8CD1D9CBF5800013551 /* UISplitViewController+MemoryLeak.h */,
+				6201B8CE1D9CBF5800013551 /* UISplitViewController+MemoryLeak.m */,
+				6201B8CF1D9CBF5800013551 /* UITabBarController+MemoryLeak.h */,
+				6201B8D01D9CBF5800013551 /* UITabBarController+MemoryLeak.m */,
+				6201B8D11D9CBF5800013551 /* UITouch+MemoryLeak.h */,
+				6201B8D21D9CBF5800013551 /* UITouch+MemoryLeak.m */,
+				6201B8D31D9CBF5800013551 /* UIView+MemoryLeak.h */,
+				6201B8D41D9CBF5800013551 /* UIView+MemoryLeak.m */,
+				6201B8D51D9CBF5800013551 /* UIViewController+MemoryLeak.h */,
+				6201B8D61D9CBF5800013551 /* UIViewController+MemoryLeak.m */,
+			);
+			name = MLeaksFinder;
+			path = pic/MLeaksFinder;
+			sourceTree = "<group>";
+		};
 		625D7B2E1D99145500D30BBC = {
 			isa = PBXGroup;
 			children = (
+				6201B8BF1D9CBF5800013551 /* MLeaksFinder */,
+				6200B14B1D9A3E200072772A /* pic */,
+				625D7B6D1D99148B00D30BBC /* ADCollection */,
 				625D7B391D99145500D30BBC /* ADCollectionDemo */,
 				625D7B531D99145500D30BBC /* ADCollectionDemoTests */,
 				625D7B5E1D99145500D30BBC /* ADCollectionDemoUITests */,
 				625D7B381D99145500D30BBC /* Products */,
+				250502FCB6D0BB493B4A949A /* Pods */,
+				0B8675F65AABD509F76A6965 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +245,12 @@
 			children = (
 				625D7B3D1D99145500D30BBC /* AppDelegate.h */,
 				625D7B3E1D99145500D30BBC /* AppDelegate.m */,
+				6201B8BC1D9CAC4800013551 /* FirstViewController.h */,
+				6201B8BD1D9CAC4800013551 /* FirstViewController.m */,
 				625D7B401D99145500D30BBC /* ViewController.h */,
 				625D7B411D99145500D30BBC /* ViewController.m */,
+				6201B8B91D9CA8FF00013551 /* TestViewController.h */,
+				6201B8BA1D9CA8FF00013551 /* TestViewController.m */,
 				625D7B431D99145500D30BBC /* Main.storyboard */,
 				625D7B461D99145500D30BBC /* Assets.xcassets */,
 				625D7B481D99145500D30BBC /* LaunchScreen.storyboard */,
@@ -140,6 +286,17 @@
 			path = ADCollectionDemoUITests;
 			sourceTree = "<group>";
 		};
+		625D7B6D1D99148B00D30BBC /* ADCollection */ = {
+			isa = PBXGroup;
+			children = (
+				625D7B6E1D9914B700D30BBC /* ADView.h */,
+				625D7B6F1D9914B700D30BBC /* ADView.m */,
+				625D7BB61D995DFB00D30BBC /* ADCollectionCell.h */,
+				625D7BB71D995DFB00D30BBC /* ADCollectionCell.m */,
+			);
+			path = ADCollection;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 625D7B641D99145500D30BBC /* Build configuration list for PBXNativeTarget "ADCollectionDemo" */;
 			buildPhases = (
+				4E58C04EAFEAF1ADA962C4A7 /* [CP] Check Pods Manifest.lock */,
 				625D7B331D99145500D30BBC /* Sources */,
 				625D7B341D99145500D30BBC /* Frameworks */,
 				625D7B351D99145500D30BBC /* Resources */,
+				D2EA8807249768E7DA59A4C6 /* [CP] Embed Pods Frameworks */,
+				09D7D1CDB206F55A1FF3ADED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 625D7B671D99145500D30BBC /* Build configuration list for PBXNativeTarget "ADCollectionDemoTests" */;
 			buildPhases = (
+				F806EBC5536A181ECC7DC040 /* [CP] Check Pods Manifest.lock */,
 				625D7B4C1D99145500D30BBC /* Sources */,
 				625D7B4D1D99145500D30BBC /* Frameworks */,
 				625D7B4E1D99145500D30BBC /* Resources */,
+				6BE0FF901A0E0F9514506DF2 /* [CP] Embed Pods Frameworks */,
+				D9068EA4858E553E6B8B1F7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +345,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 625D7B6A1D99145500D30BBC /* Build configuration list for PBXNativeTarget "ADCollectionDemoUITests" */;
 			buildPhases = (
+				F5979BB8224708D18E66430A /* [CP] Check Pods Manifest.lock */,
 				625D7B571D99145500D30BBC /* Sources */,
 				625D7B581D99145500D30BBC /* Frameworks */,
 				625D7B591D99145500D30BBC /* Resources */,
+				B192ABA7F0A261D80EA36175 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,8 +408,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6200B1531D9A3E200072772A /* 多肉3.jpg in Resources */,
+				6200B1541D9A3E200072772A /* 多肉4.jpg in Resources */,
 				625D7B4A1D99145500D30BBC /* LaunchScreen.storyboard in Resources */,
+				6200B1521D9A3E200072772A /* 多肉2.jpg in Resources */,
 				625D7B471D99145500D30BBC /* Assets.xcassets in Resources */,
+				6200B1511D9A3E200072772A /* 多肉1.jpg in Resources */,
+				6200B1551D9A3E200072772A /* 多肉5.jpg in Resources */,
 				625D7B451D99145500D30BBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,14 +435,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09D7D1CDB206F55A1FF3ADED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADCollectionDemo/Pods-ADCollectionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E58C04EAFEAF1ADA962C4A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BE0FF901A0E0F9514506DF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADCollectionDemoTests/Pods-ADCollectionDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B192ABA7F0A261D80EA36175 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADCollectionDemoUITests/Pods-ADCollectionDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2EA8807249768E7DA59A4C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADCollectionDemo/Pods-ADCollectionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9068EA4858E553E6B8B1F7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADCollectionDemoTests/Pods-ADCollectionDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5979BB8224708D18E66430A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F806EBC5536A181ECC7DC040 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		625D7B331D99145500D30BBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6201B8BB1D9CA8FF00013551 /* TestViewController.m in Sources */,
+				6201B8E01D9CBF5800013551 /* UIView+MemoryLeak.m in Sources */,
+				6201B8DF1D9CBF5800013551 /* UITouch+MemoryLeak.m in Sources */,
+				6201B8D81D9CBF5800013551 /* MLeaksMessenger.m in Sources */,
 				625D7B421D99145500D30BBC /* ViewController.m in Sources */,
+				6201B8D91D9CBF5800013551 /* NSObject+MemoryLeak.m in Sources */,
+				6201B8DE1D9CBF5800013551 /* UITabBarController+MemoryLeak.m in Sources */,
+				6201B8BE1D9CAC4800013551 /* FirstViewController.m in Sources */,
+				6201B8DC1D9CBF5800013551 /* UIPageViewController+MemoryLeak.m in Sources */,
+				6201B8DB1D9CBF5800013551 /* UINavigationController+MemoryLeak.m in Sources */,
+				6201B8DD1D9CBF5800013551 /* UISplitViewController+MemoryLeak.m in Sources */,
+				6201B8D71D9CBF5800013551 /* MLeakedObjectProxy.m in Sources */,
+				625D7BB81D995DFB00D30BBC /* ADCollectionCell.m in Sources */,
 				625D7B3F1D99145500D30BBC /* AppDelegate.m in Sources */,
+				6201B8E11D9CBF5800013551 /* UIViewController+MemoryLeak.m in Sources */,
+				6201B8DA1D9CBF5800013551 /* UIApplication+MemoryLeak.m in Sources */,
 				625D7B3C1D99145500D30BBC /* main.m in Sources */,
+				625D7B701D9914B700D30BBC /* ADView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +719,7 @@
 		};
 		625D7B651D99145500D30BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8DA3750DA031A058C39801E /* Pods-ADCollectionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ADCollectionDemo/Info.plist;
@@ -422,6 +731,7 @@
 		};
 		625D7B661D99145500D30BBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308066027F3EBECC1A071ABC /* Pods-ADCollectionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ADCollectionDemo/Info.plist;
@@ -433,6 +743,7 @@
 		};
 		625D7B681D99145500D30BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC8512A3CBFA59ECA0089FF /* Pods-ADCollectionDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ADCollectionDemoTests/Info.plist;
@@ -445,6 +756,7 @@
 		};
 		625D7B691D99145500D30BBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE425420F5CB3ACE886F7F1 /* Pods-ADCollectionDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ADCollectionDemoTests/Info.plist;
@@ -457,6 +769,7 @@
 		};
 		625D7B6B1D99145500D30BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A64A1DCEDEC8AA4C37706B1 /* Pods-ADCollectionDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ADCollectionDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -469,6 +782,7 @@
 		};
 		625D7B6C1D99145500D30BBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E54AF015441C8CF5DFD9E08 /* Pods-ADCollectionDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ADCollectionDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +812,7 @@
 				625D7B661D99145500D30BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		625D7B671D99145500D30BBC /* Build configuration list for PBXNativeTarget "ADCollectionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +821,7 @@
 				625D7B691D99145500D30BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		625D7B6A1D99145500D30BBC /* Build configuration list for PBXNativeTarget "ADCollectionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +830,7 @@
 				625D7B6C1D99145500D30BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

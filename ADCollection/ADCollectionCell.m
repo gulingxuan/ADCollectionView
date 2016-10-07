@@ -10,4 +10,15 @@
 
 @implementation ADCollectionCell
 
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.imgView = [[UIImageView alloc]initWithFrame:self.bounds];
+        self.imgView.userInteractionEnabled = YES;
+        [self addSubview:self.imgView];
+    }
+    return self;
+}
+
 @end

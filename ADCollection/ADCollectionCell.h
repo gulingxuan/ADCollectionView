@@ -10,4 +10,6 @@
 
 @interface ADCollectionCell : UICollectionViewCell
 
+@property(nonatomic, strong)UIImageView *imgView;
+
 @end

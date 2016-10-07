@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FBRetainCycleDetector.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ADCollectionDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ADCollectionDemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ADCollectionDemoUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>49CB73A775FC8D409C650AA2A80034BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>578F75CCFF7AA2DF2C62B7774C211765</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B164189D7BBB4B4C9C72241EB229E3FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B9C5D98D8ADD7148978F671F156051D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F17D2F3A780F98EA93BE173F21C43153</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
