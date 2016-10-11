@@ -13,7 +13,6 @@
 
 #import "ViewController.h"
 #import "ADView.h"
-#import "TestViewController.h"
 
 @interface ViewController ()
 

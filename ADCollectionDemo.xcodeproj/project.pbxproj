@@ -13,8 +13,6 @@
 		6200B1531D9A3E200072772A /* 多肉3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6200B14E1D9A3E200072772A /* 多肉3.jpg */; };
 		6200B1541D9A3E200072772A /* 多肉4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6200B14F1D9A3E200072772A /* 多肉4.jpg */; };
 		6200B1551D9A3E200072772A /* 多肉5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6200B1501D9A3E200072772A /* 多肉5.jpg */; };
-		6201B8BB1D9CA8FF00013551 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8BA1D9CA8FF00013551 /* TestViewController.m */; };
-		6201B8BE1D9CAC4800013551 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8BD1D9CAC4800013551 /* FirstViewController.m */; };
 		6201B8D71D9CBF5800013551 /* MLeakedObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8C11D9CBF5800013551 /* MLeakedObjectProxy.m */; };
 		6201B8D81D9CBF5800013551 /* MLeaksMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8C41D9CBF5800013551 /* MLeaksMessenger.m */; };
 		6201B8D91D9CBF5800013551 /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201B8C61D9CBF5800013551 /* NSObject+MemoryLeak.m */; };
@@ -68,10 +66,6 @@
 		6200B14E1D9A3E200072772A /* 多肉3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "多肉3.jpg"; sourceTree = "<group>"; };
 		6200B14F1D9A3E200072772A /* 多肉4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "多肉4.jpg"; sourceTree = "<group>"; };
 		6200B1501D9A3E200072772A /* 多肉5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "多肉5.jpg"; sourceTree = "<group>"; };
-		6201B8B91D9CA8FF00013551 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		6201B8BA1D9CA8FF00013551 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		6201B8BC1D9CAC4800013551 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		6201B8BD1D9CAC4800013551 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		6201B8C01D9CBF5800013551 /* MLeakedObjectProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeakedObjectProxy.h; sourceTree = "<group>"; };
 		6201B8C11D9CBF5800013551 /* MLeakedObjectProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLeakedObjectProxy.m; sourceTree = "<group>"; };
 		6201B8C21D9CBF5800013551 /* MLeaksFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeaksFinder.h; sourceTree = "<group>"; };
@@ -245,12 +239,8 @@
 			children = (
 				625D7B3D1D99145500D30BBC /* AppDelegate.h */,
 				625D7B3E1D99145500D30BBC /* AppDelegate.m */,
-				6201B8BC1D9CAC4800013551 /* FirstViewController.h */,
-				6201B8BD1D9CAC4800013551 /* FirstViewController.m */,
 				625D7B401D99145500D30BBC /* ViewController.h */,
 				625D7B411D99145500D30BBC /* ViewController.m */,
-				6201B8B91D9CA8FF00013551 /* TestViewController.h */,
-				6201B8BA1D9CA8FF00013551 /* TestViewController.m */,
 				625D7B431D99145500D30BBC /* Main.storyboard */,
 				625D7B461D99145500D30BBC /* Assets.xcassets */,
 				625D7B481D99145500D30BBC /* LaunchScreen.storyboard */,
@@ -563,14 +553,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6201B8BB1D9CA8FF00013551 /* TestViewController.m in Sources */,
 				6201B8E01D9CBF5800013551 /* UIView+MemoryLeak.m in Sources */,
 				6201B8DF1D9CBF5800013551 /* UITouch+MemoryLeak.m in Sources */,
 				6201B8D81D9CBF5800013551 /* MLeaksMessenger.m in Sources */,
 				625D7B421D99145500D30BBC /* ViewController.m in Sources */,
 				6201B8D91D9CBF5800013551 /* NSObject+MemoryLeak.m in Sources */,
 				6201B8DE1D9CBF5800013551 /* UITabBarController+MemoryLeak.m in Sources */,
-				6201B8BE1D9CAC4800013551 /* FirstViewController.m in Sources */,
 				6201B8DC1D9CBF5800013551 /* UIPageViewController+MemoryLeak.m in Sources */,
 				6201B8DB1D9CBF5800013551 /* UINavigationController+MemoryLeak.m in Sources */,
 				6201B8DD1D9CBF5800013551 /* UISplitViewController+MemoryLeak.m in Sources */,
